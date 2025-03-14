@@ -1,0 +1,16 @@
+details:
+  dns:
+    tls_enabled: true
+    backup_secondary_list:
+      - "8.8.4.4"
+      - "1.1.1.1"
+    list:
+      - "8.8.8.8"
+      - "8.8.4.4"
+  config:
+    ipv6_enabled: true
+    speed_limit: 1000
+    cache_size: 10485760  # 10MB
+  management:
+    dns_server_listen_addr: "0.0.0.0:53"
+    backend_listen_addr: "0.0.0.0:8081"
