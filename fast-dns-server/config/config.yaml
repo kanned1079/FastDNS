@@ -1,16 +1,24 @@
 details:
   dns:
+    mode: "balance"
     tls_enabled: true
     backup_secondary_list:
-      - "8.8.4.4"
-      - "1.1.1.1"
+      - "223.6.6.6"
+      - "119.29.29.29"
     list:
-      - "8.8.8.8"
-      - "8.8.4.4"
+      - "223.5.5.5"
+      - "114.114.114.114"
+      - "tls://223.5.5.5"
+      - "tls://8.8.4.4"
   config:
     ipv6_enabled: true
     speed_limit: 1000
     cache_size: 10485760  # 10MB
+    edns: false
+    edns_custom_ip_enabled: true
+    edns_custom_ip_addr: ""
+    dnssec: true
   management:
     dns_server_listen_addr: "0.0.0.0:53"
-    backend_listen_addr: "0.0.0.0:8081"
+    backend_listen_addr: "0.0.0.0:3000"
+    frontend_listen_addr: "0.0.0.0:3000"

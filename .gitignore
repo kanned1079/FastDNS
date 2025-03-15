@@ -10,7 +10,7 @@ services_pids.txt*
 
 node_modules
 .DS_Store
-dist
+fast-dns-server/internal/assets/dist
 dist-ssr
 coverage
 *.local
