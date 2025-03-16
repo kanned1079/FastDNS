@@ -2,7 +2,7 @@ package main
 
 import (
 	"fast-dns-server/internal/config"
-	"fast-dns-server/internal/exec"
+	"fast-dns-server/internal/logger"
 	"fast-dns-server/internal/model"
 	"fast-dns-server/internal/resolver"
 	"fast-dns-server/internal/router"
@@ -18,17 +18,23 @@ func init() {
 		return
 	}
 
-	log.Println(config.RootCfg)
+	//log.Println(config.RootCfg)
+
+	logger.MyLogger = logger.NewLogger("./app.log")
 
 }
 
 func main() {
-	exec.Run()
+	//exec.Run()
 	App := model.App{
 		Id:          1,
 		ApiGateway:  router.NewApiInstance(1, gin.DebugMode),
 		DnsResolver: resolver.NewDnsServerInst(1, config.RootCfg.Details.Management.DnsServerListenAddr, "udp"),
+		//Logger:      logger.NewLogger("app.log", 300),
 	}
 	go App.ApiGateway.RunApiGateway()
-	App.DnsResolver.RunDnsResolver()
+	//go utils.GlobeUtils.ShowLogEveryInterval()
+	go logger.MyLogger.StartCheckSizeInterval()
+	go App.DnsResolver.RunDnsResolver()
+	select {}
 }

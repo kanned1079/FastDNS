@@ -9,4 +9,5 @@ type App struct {
 	Id          int64
 	ApiGateway  *router.ApiInstance
 	DnsResolver *resolver.DnsServerInst
+	//Logger      *logger.Logger
 }

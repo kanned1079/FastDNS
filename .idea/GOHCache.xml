@@ -3,18 +3,9 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
-        <entry key="Api">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/model/log.go" />
-            </set>
-          </value>
-        </entry>
         <entry key="ApiInstance">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/model/api_inst.go" />
-              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/model/api_req_instance.go" />
               <option value="file://$PROJECT_DIR$/fast-dns-server/internal/router/api_inst.go" />
             </set>
           </value>
@@ -26,20 +17,6 @@
             </set>
           </value>
         </entry>
-        <entry key="AppInstance">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/model/api_req_instance.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="ConfigRoot">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/config/config.go" />
-            </set>
-          </value>
-        </entry>
         <entry key="Details">
           <value>
             <set>
@@ -47,18 +24,38 @@
             </set>
           </value>
         </entry>
+        <entry key="DnsServer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/dns_inst.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="DnsServerInst">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/dns_inst.go" />
-              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/handler.go" />
             </set>
           </value>
         </entry>
-        <entry key="GatewayApp">
+        <entry key="DnsServerStats">
           <value>
             <set>
-              <option value="file://$USER_HOME$/GolandProjects/NxcFull/backend/gateway/internal/routers/inst.go" />
+              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/dns_inst.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DnsServerStatsTCP">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/dns_inst.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Logger">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/logger/logger_inst.go" />
             </set>
           </value>
         </entry>
@@ -80,36 +77,17 @@
     </option>
     <option name="scannedPathMapping">
       <map>
-        <entry key="file://$USER_HOME$/GolandProjects/NxcFull/backend/gateway/internal/routers/inst.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741934225771" />
-              <option name="schema">
-                <list>
-                  <option value="GatewayApp" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
         <entry key="file://$PROJECT_DIR$/fast-dns-server/command/main/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741950011105" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/command/main/rw.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741947211555" />
+              <option name="lastModified" value="1742124800693" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741947764740" />
+              <option name="lastModified" value="1742124330765" />
               <option name="schema">
                 <list>
                   <option value="RootConfig" />
@@ -140,41 +118,36 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/inst.go">
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/logger/add.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741949809777" />
+              <option name="lastModified" value="1742124135724" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/model/api_inst.go">
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/logger/logger_inst.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741934275474" />
+              <option name="lastModified" value="1742124589038" />
               <option name="schema">
                 <list>
-                  <option value="ApiInstance" />
+                  <option value="Logger" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/model/api_req_instance.go">
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/logger/monit.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741933572118" />
-              <option name="schema">
-                <list>
-                  <option value="ApiInstance" />
-                </list>
-              </option>
+              <option name="lastModified" value="1742124546803" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/model/app.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741935062637" />
+              <option name="lastModified" value="1742124800703" />
               <option name="schema">
                 <list>
                   <option value="App" />
@@ -183,32 +156,15 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/model/app_inst.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741933978289" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/model/log.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741933640172" />
-              <option name="schema">
-                <list>
-                  <option value="Api" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/dns_inst.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741950317201" />
+              <option name="lastModified" value="1742125184422" />
               <option name="schema">
                 <list>
                   <option value="DnsServerInst" />
+                  <option value="DnsServerStats" />
+                  <option value="DnsServer" />
                 </list>
               </option>
             </ScannedPath>
@@ -217,14 +173,35 @@
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/handler.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741950129026" />
+              <option name="lastModified" value="1742120247766" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/query.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1742117337816" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/req.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1742120739040" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/resolvers.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741944926781" />
+              <option name="lastModified" value="1742125899665" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/utils.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1742117274330" />
             </ScannedPath>
           </value>
         </entry>
@@ -243,35 +220,21 @@
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/router/handler.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741950147875" />
+              <option name="lastModified" value="1742126942428" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/router/instance.go">
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/router/middleware.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741934695203" />
+              <option name="lastModified" value="1742126879474" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/router/routers.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741947857030" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/routers/handlers.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741932251038" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/routers/router.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741932242160" />
+              <option name="lastModified" value="1742126930114" />
             </ScannedPath>
           </value>
         </entry>
@@ -282,10 +245,24 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/utils/clean.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1742120900091" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/utils/logp.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1742123359092" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/utils/utils_inst.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1741950116034" />
+              <option name="lastModified" value="1742119324555" />
               <option name="schema">
                 <list>
                   <option value="Utils" />
@@ -294,36 +271,22 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/server/main/main.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741933757431" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/fast-dns-server/server/main/run.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1741932186707" />
-            </ScannedPath>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
       <map>
-        <entry key="api" value="Api" />
         <entry key="api_instance" value="ApiInstance" />
         <entry key="app" value="App" />
-        <entry key="app_instance" value="AppInstance" />
-        <entry key="config_root" value="ConfigRoot" />
         <entry key="details" value="Details" />
+        <entry key="dns_server" value="DnsServer" />
         <entry key="dns_server_inst" value="DnsServerInst" />
-        <entry key="gateway_app" value="GatewayApp" />
+        <entry key="dns_server_stats" value="DnsServerStats" />
+        <entry key="dns_server_stats_tcp" value="DnsServerStatsTCP" />
+        <entry key="logger" value="Logger" />
         <entry key="root_config" value="RootConfig" />
         <entry key="utils" value="Utils" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1741931972057" />
+    <option name="lastTimeChecked" value="1742104777499" />
   </component>
 </project>

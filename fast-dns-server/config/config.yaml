@@ -3,12 +3,10 @@ details:
     mode: "balance"
     tls_enabled: true
     backup_secondary_list:
-      - "223.6.6.6"
       - "119.29.29.29"
     list:
-      - "223.5.5.5"
-      - "114.114.114.114"
-      - "tls://223.5.5.5"
+      - "1.1.1.1"
+      - "tls://1.1.1.1"
       - "tls://8.8.4.4"
   config:
     ipv6_enabled: true
@@ -18,6 +16,8 @@ details:
     edns_custom_ip_enabled: true
     edns_custom_ip_addr: ""
     dnssec: true
+    log_buffer: 100
+    log_size_limit: 32768
   management:
     dns_server_listen_addr: "0.0.0.0:53"
     backend_listen_addr: "0.0.0.0:3000"
