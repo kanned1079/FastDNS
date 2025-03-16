@@ -80,7 +80,7 @@
         <entry key="file://$PROJECT_DIR$/fast-dns-server/command/main/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1742124800693" />
+              <option name="lastModified" value="1742127715424" />
             </ScannedPath>
           </value>
         </entry>
@@ -128,7 +128,7 @@
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/logger/logger_inst.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1742124589038" />
+              <option name="lastModified" value="1742127750944" />
               <option name="schema">
                 <list>
                   <option value="Logger" />
@@ -159,7 +159,7 @@
         <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/dns_inst.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1742125184422" />
+              <option name="lastModified" value="1742127709670" />
               <option name="schema">
                 <list>
                   <option value="DnsServerInst" />

@@ -29,7 +29,7 @@ func main() {
 	App := model.App{
 		Id:          1,
 		ApiGateway:  router.NewApiInstance(1, gin.DebugMode),
-		DnsResolver: resolver.NewDnsServerInst(1, config.RootCfg.Details.Management.DnsServerListenAddr, "udp"),
+		DnsResolver: resolver.NewDnsServerInst(1, config.RootCfg.Details.Management.DnsServerListenAddr),
 		//Logger:      logger.NewLogger("app.log", 300),
 	}
 	go App.ApiGateway.RunApiGateway()

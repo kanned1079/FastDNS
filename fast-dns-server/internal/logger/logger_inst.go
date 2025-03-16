@@ -22,8 +22,6 @@ type Logger struct {
 func NewLogger(filePath string) *Logger {
 	// 确保日志文件存在，如果文件不存在则创建一个空文件
 	_, err := os.Stat(filePath)
-	log.Println("---------path: ", filePath)
-	log.Println("---------log rows limit: ", config.RootCfg.Details.Config.LogBuffer)
 	if os.IsNotExist(err) {
 		// 文件不存在，创建一个空文件
 		file, err := os.Create(filePath)

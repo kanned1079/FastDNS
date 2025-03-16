@@ -32,7 +32,7 @@ type DnsServer struct {
 
 var dnsServersStats = make(map[string]*DnsServer)
 
-func NewDnsServerInst(id int64, addr, proc string) *DnsServerInst {
+func NewDnsServerInst(id int64, addr string) *DnsServerInst {
 	return &DnsServerInst{
 		Id: id,
 		tpcResolverInst: dns.Server{
