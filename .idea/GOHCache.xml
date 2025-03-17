@@ -45,13 +45,6 @@
             </set>
           </value>
         </entry>
-        <entry key="DnsServerStatsTCP">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/fast-dns-server/internal/resolver/dns_inst.go" />
-            </set>
-          </value>
-        </entry>
         <entry key="Logger">
           <value>
             <set>
@@ -81,6 +74,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1742127715424" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/assets/assets.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1742109683140" />
             </ScannedPath>
           </value>
         </entry>
@@ -271,6 +271,20 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/web/caddy_inst.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1742109683142" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/fast-dns-server/internal/web/run.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1742109683142" />
+            </ScannedPath>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
@@ -281,12 +295,11 @@
         <entry key="dns_server" value="DnsServer" />
         <entry key="dns_server_inst" value="DnsServerInst" />
         <entry key="dns_server_stats" value="DnsServerStats" />
-        <entry key="dns_server_stats_tcp" value="DnsServerStatsTCP" />
         <entry key="logger" value="Logger" />
         <entry key="root_config" value="RootConfig" />
         <entry key="utils" value="Utils" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1742104777499" />
+    <option name="lastTimeChecked" value="1742199275171" />
   </component>
 </project>
