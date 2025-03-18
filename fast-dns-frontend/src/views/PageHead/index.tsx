@@ -4,7 +4,7 @@ import styles from "./index.module.less"
 // 声明 Props 类型
 type Props = {
     title: string;
-    description: string;
+    description?: string;
 };
 
 // 正确声明组件类型
